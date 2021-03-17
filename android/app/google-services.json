@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284200870413",
+    "project_id": "fir-storeage-54aec",
+    "storage_bucket": "fir-storeage-54aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284200870413:android:464e848fc79af284b46b44",
+        "android_client_info": {
+          "package_name": "com.example.tes_fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284200870413-skijutokhp25gnp65ghm131ecng17mv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY9i5prKXPfD_0zq-gGs15GIw9rm3abKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284200870413-skijutokhp25gnp65ghm131ecng17mv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
