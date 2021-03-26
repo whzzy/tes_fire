@@ -1,31 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:tes_fire/screen/home.dart';
 
-void main() {
-  runApp(MyApp);
-}
+void main() => runApp(MyApp());
 
-Widget MyApp = MediaQuery(
-    data: MediaQueryData(),
-    child: MaterialApp(
-      home: Home(),
-    ));
+class MyApp extends StatelessWidget {
+  const MyApp({Key key}) : super(key: key);
 
-class Home extends StatefulWidget {
-  Home({Key key}) : super(key: key);
-
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Container(
-          child: Text("HEl"),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      darkTheme: ThemeData.dark(),
+      home: Home(),
     );
   }
 }
